@@ -8,6 +8,6 @@ class Ticket
   end
 
   def price
-    @price
+    @pric
   end
 end
