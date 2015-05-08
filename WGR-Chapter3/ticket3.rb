@@ -27,7 +27,8 @@ class Ticket
   #attr_writer: price
   attr_accessor :price
   #or
-  attr_ :price, true #True is required in order to create both read and write attributes
+  attr :price, true #True is required in order to create both read and write attributes
+  #Without true, attr just provides a reader attribute
 
   def initialize(venue, date)
     @venue = venue
