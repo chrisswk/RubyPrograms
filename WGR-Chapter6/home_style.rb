@@ -1,0 +1,11 @@
+def my_loop
+  while true
+    yield
+  end
+end
+
+def my_loop
+  yield while true
+end
+
+my_loop {puts "My loop forever"}
